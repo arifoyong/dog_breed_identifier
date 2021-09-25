@@ -13,7 +13,6 @@ note: performance is slow as we are running on cheap web server with shared othe
 ## Dataset & Model
 
 The model was trained with dataset obtained from [Kaggle](https://www.kaggle.com/c/dog-breed-identification).
-<<<<<<< HEAD
 This dataset pictures of 120 different breeds of dogs.
 
 Inceptionv3 is used as the base architecture.
@@ -25,7 +24,7 @@ This dataset comprises 120 breeds of dogs.
 
 Resnet50 is used as the base architecture.
 The model was developed through transfer learning from a pre-trained model trained on [ImageNet](http://www.image-net.org/) dataset. During test the model was able to achieve 89.1% accuracy.
->>>>>>> 82d10738b19dc75eaa5f5a03cdc8a65924b99513
+
 
 ## How to use
 
@@ -49,27 +48,18 @@ API=new_API_endpoint
 ## Technology used
 
 Machine Learning:
-<<<<<<< HEAD
 1. Tensorflow
 
 Backend:
-=======
-
 1. Pytorch
 2. FastAI
 
 Backend:
-
->>>>>>> 82d10738b19dc75eaa5f5a03cdc8a65924b99513
 1. Python
 2. FastAPI
 3. Docker
 
 Frontend
-<<<<<<< HEAD
-=======
-
->>>>>>> 82d10738b19dc75eaa5f5a03cdc8a65924b99513
 1. Next.js
 2. Tailwindcss
 3. Docker

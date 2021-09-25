@@ -8,11 +8,6 @@ WORKDIR /src
 COPY requirements.txt .
 
 # install dependencies
-<<<<<<< HEAD
-# RUN pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-=======
-RUN pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
->>>>>>> 82d10738b19dc75eaa5f5a03cdc8a65924b99513
 RUN pip install -r requirements.txt
 
 # EXPOSE 8000
