@@ -5,6 +5,7 @@ import numpy as np
 import shutil
 from class_names import CLASS_NAMES
 
+print(tf.__version__)
 
 model = tf.keras.models.load_model('models/inception_8030.h5')
 origins = [ "http://localhost:3001",

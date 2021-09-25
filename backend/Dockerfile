@@ -1,5 +1,5 @@
 # set base image (host OS)
-FROM tensorflow/tensorflow
+FROM ensorflow/tensorflow:2.6.0
 
 # set the working directory in the container
 WORKDIR /src
@@ -9,7 +9,6 @@ COPY requirements.txt .
 
 # install dependencies
 # RUN pip install tensorflow==2.6.0
-RUN install python3-h5py
 RUN pip install -r requirements.txt
 
 # EXPOSE 8000
