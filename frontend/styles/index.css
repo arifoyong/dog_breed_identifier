@@ -1,0 +1,13 @@
+/* styles/index.css */
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+.viewport100 {
+  height: 100vh;
+  height: -webkit-fill-available;
+  /* background-color: coral; */
+}
+
+@tailwind utilities;
