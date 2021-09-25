@@ -7,7 +7,7 @@ from class_names import CLASS_NAMES
 
 print(tf.__version__)
 
-model = tf.keras.models.load_model('models/inception_8030.h5')
+model = tf.keras.models.load_model('models/inception_08063')
 origins = [ "http://localhost:3001",
             "http://dogbreed.oyong.tk"
           ]
