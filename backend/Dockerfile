@@ -9,6 +9,7 @@ COPY requirements.txt .
 
 # install dependencies
 # RUN pip install tensorflow==2.6.0
+RUN install python3-h5py
 RUN pip install -r requirements.txt
 
 # EXPOSE 8000
