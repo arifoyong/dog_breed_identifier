@@ -1,0 +1,24 @@
+aiofiles==0.5.0
+click==7.1.2
+fastapi==0.61.0
+h11==0.9.0
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+<<<<<<< HEAD
+numpy==1.19.5
+=======
+>>>>>>> 82d10738b19dc75eaa5f5a03cdc8a65924b99513
+pydantic==1.6.1
+python-multipart==0.0.5
+PyYAML==5.3.1
+six==1.15.0
+starlette==0.13.6
+uvicorn==0.11.8
+websockets==8.1
+Werkzeug==1.0.1
+<<<<<<< HEAD
+tensorflow==2.6.0
+=======
+fastai==1.0.61
+>>>>>>> 82d10738b19dc75eaa5f5a03cdc8a65924b99513
