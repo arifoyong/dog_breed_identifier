@@ -19,9 +19,5 @@ EXPOSE 3000
 
 # USER nextjs
 # Running the app
-<<<<<<< HEAD
-CMD "npm" "run" "start"
 
-=======
 CMD "npm" "run" "start"
->>>>>>> 82d10738b19dc75eaa5f5a03cdc8a65924b99513
