@@ -1,6 +1,6 @@
 # set base image (host OS)
-# FROM tensorflow/tensorflow:2.6.0
-FROM python:3.7
+FROM tensorflow/tensorflow
+# FROM python:3.7
 
 # set the working directory in the container
 WORKDIR /src
