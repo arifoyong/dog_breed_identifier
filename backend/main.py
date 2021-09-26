@@ -5,15 +5,9 @@ import numpy as np
 import shutil
 from class_names import CLASS_NAMES
 
-print(tf.__version__)
-
 model = tf.keras.models.load_model('models/inception_08063')
-origins = [ "http://localhost:3001",
-            "http://dogbreed.oyong.tk"
-          ]
-
+origins = ["*"]
 img_height, img_width = 224, 224
-
 
 app = FastAPI()
 app.add_middleware(
@@ -24,11 +18,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 def decode_img(img):
   img = tf.io.decode_jpeg(img, channels=3)
   return tf.image.resize(img, [img_height, img_width])
-
 
 @app.get('/api')
 def read_api():
