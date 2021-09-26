@@ -1,5 +1,5 @@
 # set base image (host OS)
-FROM tensorflow/tensorflow
+FROM python:3.7
 
 # set the working directory in the container
 WORKDIR /src
@@ -8,6 +8,7 @@ WORKDIR /src
 COPY requirements.txt .
 
 # install dependencies
+# RUN pip install tensorflow==2.6.0
 RUN pip install -r requirements.txt
 
 # copy the content of the local src directory to the working directory
